@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    background-color: #161617;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li img{
+    width: 15px;
+}
+
+header ul{
+    gap: 30px;
+    display: flex;
+    color: #afafaf;
+    list-style: none;
+    font-size: 12px;
+}
+
+.navsea img{
+    width: 30px;
+}
+.navsto img{
+    width: 30px;
+}
+
+.hero{
+    width: 100%;
+    height: 650px;
+    background-image: url(./images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.hero h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hero h2{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.btnhero1{
+    width: 130px;
+    height: 45px;
+    background-color: #0071e3;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+.btnhero2{
+    width: 80px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #0071e3;
+    border: 1px solid #0071e3;
+}
+
+.btnhero2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+.btnhero{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.hero2{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.hero2 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hero2 h2{
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.hero3{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-image: url(./images/macbook.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.hero3 h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hero3 h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.wspar{
+    width: 100%;
+    display: flex;
+}
+
+.ws11{
+    width: 50%;
+    height: 650px;
+    background-color: black;
+    background-image: url(./images/ws11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.ws11 h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ws11 h2{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ip{
+    width: 50%;
+    height: 650px;
+    background-image: url(./images/ip.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.ip h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ip h2{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.ap3par{
+    width: 100%;
+    display: flex;
+}
+
+.ap3{
+    width: 50%;
+    height: 650px;
+    background-color: black;
+    background-image: url(./images/ap3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.ap3 h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ap3 h2{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ma{
+    width: 50%;
+    height: 650px;
+    background-image: url(./images/ma.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.ma h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ma h2{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.tipar{
+    width: 100%;
+    display: flex;
+}
+
+.ti{
+    width: 50%;
+    height: 650px;
+    background-color: black;
+    background-image: url(./images/trade.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-right: 5px;
+}
+
+.ti h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ti h2{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ca{
+    width: 50%;
+    height: 650px;
+    background-image: url(./images/card.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.ca h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.ca h2{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ppar{
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ppar p{
+    width: 80%;
+}
+
+footer{
+    width: 100%;
+    padding-top: 20px;
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.foot{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.foot ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.foot li{
+    padding: 10px;
+}
+
+.footend{
+    display: flex;
+    background-color: #f5f5f7;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.footi{
+width: 80%;
+}
+
