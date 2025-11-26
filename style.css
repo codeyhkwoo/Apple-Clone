@@ -15,6 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 header ul li img{
@@ -44,6 +45,7 @@ header ul{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .hero h1{
@@ -66,6 +68,7 @@ header ul{
     border-radius: 30px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 .btnhero2{
     width: 80px;
@@ -74,6 +77,7 @@ header ul{
     border-radius: 30px;
     color: #0071e3;
     border: 1px solid #0071e3;
+    cursor: pointer;
 }
 
 .btnhero2:hover{
@@ -98,6 +102,7 @@ header ul{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .hero2 h1{
@@ -123,6 +128,7 @@ header ul{
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .hero3 h1{
@@ -154,6 +160,7 @@ header ul{
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .ws11 h1{
@@ -179,6 +186,7 @@ header ul{
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .ip h1{
@@ -211,6 +219,7 @@ header ul{
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .ap3 h1{
@@ -236,6 +245,7 @@ header ul{
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .ma h1{
@@ -267,6 +277,7 @@ header ul{
     background-repeat: no-repeat;
     margin-bottom: 50px;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .ti h1{
@@ -292,6 +303,7 @@ header ul{
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .ca h1{
@@ -327,7 +339,6 @@ footer{
     background-color: #f5f5f7;
     display: flex;
     justify-content: center;
-    
 }
 
 
@@ -335,12 +346,12 @@ footer{
     width: 80%;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .foot ul{
     list-style: none;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .foot li{
@@ -352,9 +363,11 @@ footer{
     background-color: #f5f5f7;
     justify-content: center;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .footi{
 width: 80%;
 }
+
 
